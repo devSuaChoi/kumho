@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+a {text-decoration: none;}
+
+body {
+    font-size: 0.75em;
+    font: '맑은 고딕', 'Malgun Gothic','Noto Sans', sans-serif;
+}
+
+/*--------------탭---------------------*/
+
+.wrap {
+    width: 50%;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+#tit {
+    font-size: 3.5em;
+    margin: 20px 0;
+}
+
+.tab {
+    margin: 5% 0;
+}
+
+.tab_icon {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tab_icon li {
+    width: 33.333%;
+    float: left;
+}
+
+.tab_icon li img {
+    width: 30%;
+}
+
+.tab_txt {
+    width: 70%;
+    font-size: 1.5em;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.tab_txt li {
+    width: 33.333%;
+    float: left;
+}
+
+/*------------본문------------*/
+
+div.tbox {
+	width: 100%;
+	border: 50px solid #eee;
+	box-sizing:border-box;
+	background: #fff;
+	margin: 0 auto;
+}
+
+div.hbox_1 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+div.hb_1 {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+div.check_box {
+	width: 70%;
+	overflow: hidden;
+}
+
+#cpic {
+	width: 10%;
+	cursor: pointer;
+	float: left;
+	margin-top: 60px;
+}
+
+p.htxt_1 {
+	font-size: 2em;
+	width: 75%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 55px;
+}
+
+div.hb_2, div.ib_1, div.mb_1 {
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+div.scheck_box, div.scheck_box_2, div.scheck_box_3 {
+	width: 70%;
+	overflow: hidden;
+}
+
+p.check, p.check_2, p.check_3 {
+	width: 10%;
+	float: left;
+	margin-top: 5%;
+}
+
+p.htxt_2, p.itxt_2, p.mtxt_2 {
+	width: 90%;
+	font-size: 1.5em;
+	float: left;
+	margin-top: 5%;
+}
+
+span {
+	font-weight: 600;
+	color: #810101;
+}
+
+div.hb_3, div.ib_2, div.mb_2 {
+	border: 1px solid #acacac;
+	box-sizing:border-box;
+	background: #ebebeb;
+	font-size: 0.75em;
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+div.info, div.info_2, div.info_3 {
+	font-size: 1.3em;
+	margin: 20px;
+}
+
+div.confirm {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 5% auto;
+}
+
+div.cbox {
+	width: 60%;
+	font-size: 1.3em;
+	margin: 5% auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+div.certification {
+	width: 47%;
+	height: 200px;
+	line-height: 1.6;
+	border: 2px solid #a1a1a1;
+	box-sizing:border-box;
+	margin-right: 5%;
+	float: left;
+}
+
+div.certification a,  div.certification_2 a {
+	color: #000;
+}
+
+p.phone {
+	width: 30%;
+	margin: 0 auto;
+}
+
+p.phone  img {
+	width: 80%;
+	margin-top: 50px;
+}
+
+div.certification_2 {
+	width: 47%;
+	height: 200px;
+	line-height: 1.6;
+	border: 2px solid #a1a1a1;
+	box-sizing:border-box;
+	float: left;
+}
+
+p.ipin {
+	width: 30%;
+	margin: 0 auto;
+}
+
+p.ipin img {
+	width: 80%;
+	margin-top: 60px;
+}
+
+/*------------이동------------*/
+
+div.jowrap {
+	width: 100%;
+	background: #fff;
+}
+
+div.move {
+	width: 20%;
+	font-size: 1.5em;
+	margin: 0 auto;
+	padding: 5% 0;
+	text-align: center;
+	overflow: hidden;
+	background: #fff;
+}
+
+p.previ {
+	width: 45%;
+	border: 2px solid #000;
+	box-sizing:border-box;
+	float: left;
+}
+
+p.previ a {
+	display: block;
+	color: #000;
+	padding: 7%;
+}
+
+p.next {
+	width: 45%;
+	color: #fff;
+	border: 2px solid #373737;
+	box-sizing:border-box;
+	background: #373737;
+	margin-left: 10%;
+	float: left;
+}
+
+p.next a {
+	display: block;
+	color: #fff;
+	padding: 7%;
+}

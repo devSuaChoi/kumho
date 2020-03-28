@@ -28,6 +28,7 @@ body {
 #stit {
     font-size: 1.2em;
     color: #696060;
+    margin-bottom: 10px;
 }
 
 .info {
@@ -51,6 +52,7 @@ body {
     color: #fff;
     outline: none;
     padding: 10px;
+    margin: 10px 0;
     cursor: pointer;
 }
 
@@ -68,4 +70,9 @@ body {
 
 .join li a {
     color: #666;
+}
+
+.join li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
