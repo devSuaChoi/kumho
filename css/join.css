@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+a {text-decoration: none;}
+
+body {
+    font-size: 0.75em;
+    font: '맑은 고딕', 'Malgun Gothic','Noto Sans', sans-serif;
+}
+
+/*--------------탭---------------------*/
+
+.wrap {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+#tit {
+    font-size: 3.5em;
+    margin: 10% 0;
+}
+
+.tab {
+    margin: 5% 0;
+}
+
+.tab_icon {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tab_icon li {
+    width: 33.333%;
+    float: left;
+}
+
+.tab_icon li img {
+    width: 30%;
+}
+
+.tab_txt {
+    width: 70%;
+    font-size: 1.5em;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.tab_txt li {
+    width: 33.333%;
+    float: left;
+}
+
+/*-----------------본문--------------*/
+
+div.box {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+p.txt {
+	font-size: 2.5em;
+    margin-bottom: 3%;
+    margin-top: 10%;
+}
+
+p.txt_2 {
+	font-size: 1.3em;
+	margin-bottom: 5%;
+}
+
+p.b_1 {
+	width: 10%;
+	margin: 10% auto;
+}
+
+p.b_1 img {
+	width: 100%;
+}
+
+/*-----------------버튼----------------*/
+
+div.move {
+	width: 20%;
+	font-size: 2em;
+	margin: 5% auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+p.log {
+	width: 45%;
+    background: #810101;
+	float: left;
+}
+
+p.log a {
+	display: block;
+	color: #fff;
+	padding: 7%;
+}
+
+p.home {
+	width: 45%;
+    background: #810101;
+	margin-left: 10%;
+	float: left;
+}
+
+p.home a {
+	display: block;
+	color: #fff;
+	padding: 7%;
+}
