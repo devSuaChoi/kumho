@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>info_input</title>
+
+        <link rel="stylesheet" href="../css/common/reset.css">
+        <link rel="stylesheet" href="../css/info_input.css">
+
+    </head>
+
+    <body>
+
+        <!------------------탭------------------> 
+
+        <div class="wrap">
+            
+            <div class="title">
+
+                <p id="tit">회원가입</p>
+                
+                <div class="tab">
+
+                    <ul class="tab_icon">
+                        <li><img src="../img/agree.png" alt="약관동의 아이콘"></li>
+                        <li><img src="../img/info_red_icon.png" alt="정보입력 아이콘"></li>
+                        <li><img src="../img/join_icon.png" alt="가입완료 아이콘"></li>
+                    </ul>
+
+                    <ul class="tab_txt">
+                        <li>약관동의</li>
+                        <li style="color: #810101;">정보입력</li>
+                        <li>가입완료</li>
+                    </ul>
+                
+                </div>
+
+            </div>
+        
+        <!------------------본문--------------->
+	
+            <div class="tbox">
+            
+                <form action="#" method="post">
+                    
+                    <div class="txt">
+                        <h2>회원정보입력</h2>
+                        <p> (<span>*</span>필수 입력 정보 입니다.)</p>
+                    </div>
+
+                    <fieldset>
+                        
+                        <ul>
+                            
+                            <li>
+                                <label for="id"><span>*</span>이름</label>		<input type="text" id="name">
+                            </li>
+                        
+                            <li>
+                                <label for="userId"><span>*</span>아이디</label>
+                                <input type="text" id="userId">
+                                <input type="button" id="but" value="중복확인">
+                            </li>
+                        
+                            <li>
+                                <label for="pw1"><span>*</span>비밀번호</label>
+                                <input type="password" id="pw1" placeholder="영문과 숫자가 혼합된 6~12자리" maxLength="8" required>
+                                
+                            </li>
+                            
+                            <li>
+                                <label for="pw2"><span>*</span>비밀번호(확인)</label>
+                                <input type="password" id="pw2">
+                            </li>	
+                            
+                            <li>
+                                <label for="phone"><span>*</span>휴대폰</label>
+                                <input type="password" id="phone" placeholder="-빼고 입력해주세요." maxLength="8" required>
+                            </li>	
+                            
+                            <li>
+                                <label for="userEmail">이메일주소</label>
+                                <input type="textbox" id="email" size="10" maxlength="10"> @
+                                <input type="textbox" id="dinput" size="10" maxlength="10" placeholder="직접입력">
+                                
+                                <select>
+                                    <option>naver.com</option>
+                                    <option>daum.net</option>
+                                    <option>gmail.com</option>
+                                    <option>nate.com</option>
+                                </select>
+                            </li>
+                            
+                            <li>
+                                <label for="texbox">주소</label>
+                                <input type="password" size="10" maxlength="6">
+                                <input type="button" id="but" value="우편번호 찾기">
+                                <br>
+                                <input type="text" id="cc" name="zip_h_1">
+                            </li>
+                            
+                        </ul>
+                        
+                    </fieldset>
+                
+                </form>
+            </div>
+        </div>
+        
+	<!-------------버튼-------------->
+
+		<div class="move">
+			<p class="previ"><a href="agree.html">이전단계</a></p>
+			<p class="next"><a href="join.html">다음단계</a></p>
+		</div>
+
+    </body>
+
+</html>

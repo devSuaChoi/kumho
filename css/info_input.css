@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+a {text-decoration: none;}
+
+body {
+    font-size: 0.75em;
+    font: '맑은 고딕', 'Malgun Gothic','Noto Sans', sans-serif;
+}
+
+/*--------------탭---------------------*/
+
+.wrap {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+#tit {
+    font-size: 3.5em;
+    margin: 20px 0;
+}
+
+.tab {
+    margin: 5% 0;
+}
+
+.tab_icon {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.tab_icon li {
+    width: 33.333%;
+    float: left;
+}
+
+.tab_icon li img {
+    width: 30%;
+}
+
+.tab_txt {
+    width: 70%;
+    font-size: 1.5em;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.tab_txt li {
+    width: 33.333%;
+    float: left;
+}
+
+/*-----------------본문----------------*/
+
+div.tbox {
+	width: 90%;
+	height: 900px;
+	border: 1px solid #959595;
+	box-sizing:border-box;
+	margin: 5% auto;
+}
+
+div.txt {
+	width: 100%;
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	margin-bottom: 8%; 
+}
+
+div.txt h2 {
+	margin-bottom: 5px;
+	padding: 10px 0 0 10px;
+}
+
+div.txt p {
+	padding-left: 10px;
+}
+
+span {
+	color: red;
+}
+
+form {
+	padding: 5% 10%;
+}
+
+form fieldset {
+	font-weight: bold;
+	border: none;
+}
+
+fieldset ul li {
+	font-size: 14px;
+	line-height: 50px;
+	margin: 30px 0;
+}
+
+label {
+	width: 200px;
+	font-size: 15px;
+	margin-right: 40px;
+	float: left;
+}
+
+input {
+	width: 200px;
+	border: none;
+	border-bottom: 1px solid #959595;
+	line-height: 15px;
+	padding: 8px;
+	vertical-align:middle;
+	outline: none;
+}
+
+input#but {
+	width: 100px;
+	border: none;
+	color: #fff;
+    background: #000;
+    padding: 10px;
+}
+
+input#email {
+	width: 140px;
+}
+
+input#dinput {
+	width: 100px;
+}
+
+input#cc {
+	width: 305px;
+	margin-left: 240px;
+	margin-top: 10px;
+}
+
+select {
+	width: 140px;
+	padding: 8px;
+	outline: none;
+}
+
+/*-----------------버튼----------------*/
+
+div.move {
+	width: 20%;
+	font-size: 1.5em;
+	margin: 5% auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+p.previ {
+	width: 45%;
+	border: 2px solid #000;
+	box-sizing:border-box;
+	float: left;
+}
+
+p.previ a {
+	display: block;
+	color: #000;
+	padding: 7%;
+}
+
+p.next {
+	width: 45%;
+	color: #fff;
+	border: 2px solid #373737;
+	box-sizing:border-box;
+	background: #373737;
+	margin-left: 10%;
+	float: left;
+}
+
+p.next a {
+	display: block;
+	color: #fff;
+	padding: 7%;
+}
