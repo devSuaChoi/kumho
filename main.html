@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>main</title>
+		
+		<link rel="stylesheet" href="css/reset.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/owl.theme_2.css">
+		
+		<link rel="stylesheet" href="css/slip.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		
+		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+		
+		<script type="text/javascript" src="js/q_menu.js"></script>
+		
+		<script type="text/javascript" src="js/ss_slide.js"></script>
+		
+		<script type= "text/javascript" src= "js/rolling.js"></script>
+		
+		<script type="text/javascript" src="js/owl.carousel.js"></script>
+		
+		<script type="text/javascript" src="js/s_vid.js"></script>
+		
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		
+		<script type="text/javascript" src="js/q_click_2.js"></script>
+		
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		
+		<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+		
+		<script type="text/javascript" src="js/popup.js"></script>
+		
+		<script>
+			$(function(){
+				$("#h_01").on("click",function(){
+				$("#sublist").toggle("slow");
+				});
+			});
+		</script>
+		
+		
+	</head>
+	<body>
+	
+	<!------------------퀵메뉴------------------>
+	
+		<div id="quick_menu">
+			
+			<ul>
+				<li id="all"><a href="#"><img src="img/quick_menu2.png" alt=""></a></li>
+				<hr class="qm">
+				<li><a href="list_2.html"><img src="img/quick_menu_1.png" alt=""></a></li>
+				<hr class="qm">
+				<li><a href="map_2.html"><img src="img/quick_menu_2_4.png" alt=""></a></li>
+				<hr class="qm">
+				<li><a href="purchase.html"><img src="img/quick_menu_3_1.png" alt=""></a></li>
+			</ul>	
+			
+			<div class="q_sch">
+				<input type="text" id="q_sch_in">
+				<img src="img/icon_3_1.png" id="tet"  alt="검색">
+			</div>
+		
+		</div>
+
+		<div class="page-main">
+		
+			<aside>
+				<ul>
+					
+					<li id="sub_log">
+						<a href="login.html"><img src="img/q_sub_login_1.png" alt=""></a>
+						<a href="agree.html"><img src="img/q_sub_join.png" alt=""></a>
+					</li>
+					
+					<li id="sub_log">
+						<a href="login.html">로그인</a>
+						<a href="agree.html">회원가입</a>
+					</li>
+					
+					<hr width="80%" style="margin: 10% auto;">
+					
+					<li><a href="">오늘 본 상품</a></li>
+					
+					<li><a href=""><img src="img/q_pro.jpg"><br>&lt; 1/1 &gt;</a></li>
+					
+					<div class="q_list">
+						<p><a href="">상품 보러가기</a></p>
+						<p><a href=""><img src="img/q_arrow.png"></a></p>
+					</div>
+					
+					<hr width="80%" style="margin: 10% auto;">
+					
+					<div class="q_smenu">
+						<p><a href="list_2.html">타이어</a></p>
+						<p><a href="map_2.html">서비스</a></p>
+						<p><a href="company_6.html">기업정보</a></p>
+						<p><a href="event.html">커뮤니티</a></p>
+						<p><a href="#">모터스포츠</a></p>
+					</div>
+					
+					<hr width="80%" style="margin: 10% auto;">
+					
+					<div class="q_sns">
+						<div id="q_txt"><a href="">FOLLOW US</a></div>
+						<div><a href=""><img src="img/q_sns_1.png"></a></div>
+						<div><a href=""><img src="img/q_sns_2.png"></a></div>
+						<div><a href=""><img src="img/q_sns_3.png"></a></div>
+						<div><a href=""><img src="img/q_sns_4.png"></a></div>
+					</div>
+					
+					<li id="ads">
+						<p>금호타이어(주)</p>
+						<p>서울시 종로구 새문안로 68</p>
+						<p>금호타이어(주) 대표이사 전대진</p>
+						<p>사업자등록번호 101-81-95610 /</p>
+						<p>T. 02-1588-9582</p>
+					</li>
+					
+				</ul>
+				
+			</aside>
+		</div>
+		
+	<!------------------팝업------------------>
+	
+		<div id="pop_wrap">
+		
+			<a href="#" target="_parent">
+			<img src="img/pop_2.jpg" alt="" usemap="#pop" /></a>
+			
+			<map name="pop" id="pop">
+				<area shape="rect" coords="217,329,242,347" href="#" alt="닫기" />
+			</map>
+			
+			<div class="popup">
+				<p>
+					<input type="checkbox" id="check" />
+					<label for="check">오늘 하루 열지 않음</label>
+				</p>
+			</div>
+			
+		</div>
+		
+	<!-----------------실시간---------------->
+		
+		<div id="notice5" class="news">
+		
+			<div class="open-event fl">
+	
+				<ul class="notice-list">
+					<li>
+						<a href="#">1. 앱 서비스/홈페이지 서비스의 점검 안내</a><span class="date">2020.02.25</span>
+					</li>
+
+					<li>
+						<a href="#">2. 마모 수명 보증서 “비회원 등록” 서비스</a><span class="date">2020.02.20</span>
+					</li>
+					
+					<li>
+						<a href="#">3. 금호타이어 핑크리본 캠페인</a><span class="date">2020.02.15</span>
+					</li>
+					
+					<li class="hid">
+						<a href="#">4. 금호타이어, 모바일 사이트 오픈</a><span class="date">2020.02.11</span>
+					</li>
+					
+					<li>
+						<a href="#">5. 마모 수명 보증제도 신규 등록 종료 안내</a><span class="date">2020.02.07</span>
+					</li>
+					
+				</ul>
+			
+			</div>
+
+			<script type="text/javascript">
+				fn_article3('notice5','bt5', true);
+			</script>
+
+		</div>
+		
+	<!---------------------메뉴바-------------->
+	
+		<header>
+			
+			<div id="menu">
+			
+				<ul class="nav_total">	
+					<li class="logo">
+						<a href="#" onclick="return false"><img src="img/logo.png"></a>
+					</li>
+					
+					<li class="snip1322"><a href="list_2.html">타이어</a>
+						<ul class="sub_bg">
+							<li>
+								<ul class="sub sub_1">
+									<li>
+										<ul>
+											<li class="sub_p">PRODUCT</li>
+											<hr style="margin-bottom: 15px;">
+											<li><a href="list_2.html">승용차용</a></li>
+											<li><a href="list_2.html">SUV/RV용</a></li>
+											<li><a href="list_2.html">트럭/버스용</a></li>
+											<li><a href="list_2.html">레이싱용</a></li>
+											<li><a href="list_2.html">신차출고용</a></li>
+										</ul>
+										
+										<ul>
+											<li class="sub_p2">PRODUCT LIST</li>
+											<hr>
+											<li class="sub_p3"><a href="list_2.html"><img src="img/sub_tire_1_1.jpg" alt=""></a></li>
+											<li class="sub_p3"><a href="list_2.html"><img src="img/sub_tire_2_2.jpg" alt=""></a></li>
+										</ul>
+										
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				
+					<li class="snip1322">
+						<a href="map_2.html">서비스</a>
+						<ul class="sub_bg">
+							<li>
+								<ul class="sub sub_2">
+									<li>
+										<ul>
+											<li class="sub_p">SERVICE</li>
+											<hr style="margin-bottom: 15px;">
+											<li><a href="map_2.html">매장검색</a></li>
+											<li><a href="notices.html">공지사항</a></li>
+											<li><a href="#">보증제도</a></li>
+											<li><a href="#">채용정보</a></li>
+										</ul>
+										
+										<ul>
+											<li class="sub_p2">SERVICE LIST</li>
+											<hr>
+											<li class="sub_p3"><a href="#"><img src="img/sub_sv_icon1.png"></a></li>
+											<li class="sub_p3"><a href="#"><img src="img/sub_sv_icon2.png"></a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li class="snip1322"><a href="#">기업정보</a>
+						<ul class="sub_bg">
+							<li>
+					<ul class="sub sub_3">
+					<li>
+						
+						<ul>
+							<li class="sub_p">
+								COMPANY
+							</li>
+							<hr style="margin-bottom: 15px;">
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">홍보센터</a></li>
+							<li><a href="#">투자정보</a></li>
+						</ul>
+						
+						<ul>
+							<li class="sub_p2">COMPANY LIST</li>
+							<hr>
+							<li class="sub_p3"><a href="#"><img src="img/sub_company_2.jpg" alt=""></a></li>
+							<li class="sub_p3"><a href="#"><img src="img/sub_company_3.jpg" alt=""></a></li>
+						</ul>
+						
+					</li>
+				</ul>
+				</li>
+				</ul>
+				</li>
+
+				<li class="snip1322"><a href="event.html">커뮤니티</a>
+				<ul class="sub_bg">
+				<li>
+				<ul class="sub sub_4">
+					<li>
+						
+						<ul>
+							<li class="sub_p">
+								EVENT
+							</li>
+							<hr style="margin-bottom: 15px;">
+							<li><a href="event.html">이벤트</a></li>
+							<li><a href="#">스포츠마케팅</a></li>
+							<li><a href="#">Q&amp;A/FAQ</a></li>
+						</ul>
+	
+						<ul>
+							<li class="sub_p2">
+								EVENT LIST
+							</li>
+							
+							<hr>
+							
+							<li class="sub_p3">
+								<a href="event.html"><img src="img/sub_event.jpg" alt="이벤트1"></a>
+							</li>
+							
+							<li class="sub_p3">
+								<a href="event.html"><img src="img/sub_event_2.jpg" alt="이벤트2"></a>
+							</li>
+						</ul>
+						
+					</li>
+				</ul>
+				</li>
+				</ul>
+				</li>
+				
+				<li class="snip1322"><a href="#" onclick="return false">모터스포츠</a>
+				<ul class="sub_bg">
+				<li>
+				<ul class="sub sub_5">
+				
+					<li>
+					
+						<ul>
+							<li class="sub_p">
+								MOTORSPORTS
+							</li>
+							<hr style="margin-bottom: 15px;">
+							<li><a href="#">대회일정</a></li>
+							<li><a href="#">레이싱 타이어</a></li>
+							<li><a href="#">뉴스</a></li>
+						</ul>
+						
+						<ul>
+							<li class="sub_p2">
+								MOTORSPORTS LIST
+							</li>
+							<hr>
+							<li class="sub_p3">
+								<a href="#"><img src="img/sub_sport.jpg" alt=""/></a>
+							</li>
+						</ul>
+						
+					</li>
+				</ul>
+				</li>
+				</ul>
+				</li>
+
+				<li><a href="#" id="h_01"><img src="img/icon_1_1.png" onclick="return false" alt=""></a></li>
+			
+				<li><a href="#infopanel" class="open_modal" id="h_02"><img src="img/icon_2_1.png"></a></li>
+			
+			</ul>
+			</div> 
+
+			<div id="sublist">
+				<ul class="sub1">
+					<li>
+						<ul>
+							<li><a href="#">승용차용</a></li>
+							<li><a href="#">SUV/RV용</li>
+							<li><a href="#">트럭/버스용</li>
+							<li><a href="#">레이싱용</li>
+							<li><a href="#">신차출고용</li>
+						</ul>
+						
+						<ul>
+							<li><a href="#">매장검색</a></li>
+							<li><a href="#">공지사항</a></li>
+							<li><a href="#">보증제도</a></li>
+							<li><a href="#">채용정보</a></li>
+						</ul>
+						
+						<ul>
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">홍보센터</a></li>
+							<li><a href="#">투자정보</a></li>
+						</ul>
+
+						<ul>
+							<li><a href="#">이벤트</a></li>
+							<li><a href="#">스포츠마케팅</a></li>
+							<li><a href="#">Q&amp;A/FAQ</a></li>
+						</ul>
+						
+						<ul>
+							<li><a href="#">대회일정</a></li>
+							<li><a href="#">레이싱 타이어</a></li>
+							<li><a href="#">뉴스</a></li>
+						</ul>
+					
+					</li>
+				</ul>
+			</div>
+		
+		</header>
+	
+	<!-------------------------모달------------------------->
+		
+		<div class="loginwrap">
+				
+			<div id="infopanel" class="model">
+			
+				<div class="content">
+				
+					<h2>로그인</h2>	
+					
+					<div>	
+					
+					<fieldset>
+				
+						<ul>
+							<li>
+								<label for="uname" class="tit">아이디</label>
+								<input type="text" id="uname" placeholder="아이디를 입력해주세요." required>
+							</li>
+							
+							<li>
+								<label for="tel1" class="tit_2">비밀번호</label>
+								<input type="tel" id="tel1" placeholder=" 비밀번호를 입력해주세요.">
+							</li>
+							
+						</ul>
+						
+						<div class="lo_butt">
+							<input type="submit" id="butt" value="로그인">
+						</div>
+						
+						<div class="join">
+							<a href="agree.html">회원가입</a>
+							<a href="#">아이디 찾기</a>
+							<a href="#">비밀번호 찾기</a>
+						</div>
+						
+					</fieldset>
+				
+				</div>
+				
+				<div class="close">
+					<a href="#">Close</a>
+				</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-----------------슬라이드----------->
+		
+		<div id="owl-example" class="owl-carousel">
+		
+			<div class="item">
+				<div class="red"><img src="img/slide_1_3.jpg"></div>
+			</div>
+			<div class="item">
+				<div class="orange"><img src="img/slide_2_3.jpg"></div>
+			</div>
+			<div class="item">
+				<div class="yellow"><img src="img/slide_3_3.jpg"></div>
+			</div>
+			<div class="item">
+				<div class="green"><img src="img/slide_4_3.jpg"></div>
+			</div>
+			
+		</div>
+		
+		<div class="btn_area">
+			<a href="#" id="prev"><img src="img/arrow_1_3.png" alt="이전"></a>
+			<a href="#" id="next"><img src="img/arrow_1_2.png" alt="다음"></a>
+		</div>
+		
+		<script>
+			var $owl = $("#owl-example").owlCarousel({ singleItem : true });
+			
+			
+			// 1. 이전 이동
+			$("#prev").click(function(){
+				$owl.trigger("owl.prev");
+			});
+			
+			// 2. 다음 이동
+			$("#next").click(function(){
+				$owl.trigger("owl.next");
+			});
+			
+			// 3.사용자 반응 플레이 스탑
+			
+			$(".item").on("mouseover", function(){
+				$owl.trigger("owl.stop");
+			});
+			
+			$(".item").on("mouseout", function(){
+				$owl.trigger("owl.play", 2000);
+			});
+			
+			$(function(){
+				$owl.trigger("owl.play", 2000);
+			});
+			
+		</script>
+
+		<!-----------------탑버튼-------------->
+
+		<div class="top">
+			<a href="#"><img src="img/top_button_3.png" alt=""></a>
+		</div>
+		
+		<section>
+		
+		<!-----------------이벤트-------------->
+		
+			<div class="event">
+				
+				<h2><a href="event.html">EVENT</a></h2>
+				
+				<p class="e_1">
+					<a href="event.html"><img src="img/event_3_2.jpg" alt="이벤트1"></a>
+				</p>
+				
+				<p class="e_1">
+					<a href="event.html"><img src="img/event_2.jpg" alt="이벤트2"></a>
+				</p>
+
+			</div>
+			
+		<!-----------------배경고정-------------->	
+	
+		<div class="fix">
+			
+			<div class="fix_1">
+				<p><span><img src="img/micon_1_2.png" alt="메타폰아이콘"><span></p>
+				<p><span><img src="img/micon_2_2.png" alt="메타폰아이콘"></span></p>
+				<p><span><img src="img/micon_3_2.png" alt="메타폰아이콘"></span></p>
+			</div>
+			
+		</div>
+		
+		<!----------------product-------------->
+		
+			<div class="product_1">
+			
+			<div class="product">
+				
+				<div id="pro_1">
+					
+					<h2><a href="list_2.html">Tire Product</a></h2>
+				
+					<ul id="p_1">
+						<li><a href="list_2.html"><img src="img/product_1.jpg" alt="product1"></a></li>
+	
+						<li><a href="list_2.html"><img src="img/product_2.jpg" alt="product2"></a></li>
+
+						<li><a href="list_2.html"><img src="img/product_3.jpg" alt="product2"></a></li>
+					
+						<li><a href="list_2.html"><img src="img/product_4.jpg" alt="product2"></a></li>
+					
+						<li><a href="list_2.html"><img src="img/product_5.jpg" alt="product2"></a></li>
+					
+						<li><a href="list_2.html"><img src="img/product_6.jpg" alt="product2"></a></li>
+						
+					</ul>
+						
+					<div id="arrow1">
+						<a href="#"><img src="img/arrow_2_2.png"></a>
+					</div>
+					
+					<div id="arrow2">
+						<a href="#"><img src="img/arrow_1_2.png"></a>
+					</div>
+						
+				</div>
+			</div>
+		</div>
+			
+		<!-----------------영상-------------->	
+			
+			<div id="vid">
+			
+				<p id="s_vid">
+					<video src="video/video_1.mp4" type="video/mp4" controls autoplay loop muted preload="auto" width="100%" height="100%"></video>
+				</p>
+				
+				<div id="vid_list">
+			
+					<ul id="inner_list">
+						<li><a href="video/video_5_1.mp4">
+						<img src="img/vid_pic_1.jpg" alt="사진1"></a></li>
+						
+						<li><a href="video/video_4.mp4">
+						<img src="img/vid_pic_2.jpg" alt="사진2"></a></li>
+						
+						<li><a href="video/video_2.mp4">
+						<img src="img/vid_pic_3.jpg" alt="사진3"></a></li>
+						
+						<li><a href="video/video_3.mp4">
+						<img src="img/vid_pic_4.jpg" alt="사진3"></a></li>
+
+					</ul>
+				
+				</div>
+			
+			</div>
+			
+		<!-----------------more-------------->	
+		
+			<div class="tbox">
+			
+				<div class="more_tit">
+					<h2><a href="#">The More</a></h2>
+				</div>
+					
+				<div class="b_1">
+
+					<a href="notices.html"><img src="img/more_1_3.jpg" alt="뉴스">
+					
+					<div class="more"><p><span>공지사항</span>
+						<br><br>금호타이어 마제스티9<br>
+						2019년 국내 타이어 BEST</p>
+					</div></a>
+				</div>
+				
+				<div class="b_1">
+					<a href="#"><img src="img/more_2_2.jpg" alt="타이어 제조주차">
+					
+					<div class="more"><p><span>타이어 제조주차</span>
+						<br><br>타이어의 제조주차
+						확인 방법을 알려드립니다.</p>
+					</div></a>
+				</div>
+				
+				<div class="b_1">
+					<a href="#"><img src="img/more_3_2.jpg" alt="에너지소비효율등급">
+					
+					<div class="more"><p><span>에너지소비효율등급</span>
+						<br><br>에너지 소비효율 등급<br>
+						제도를 소개해드립니다.</p>
+					</div></a>
+				</div>
+				
+				<div class="b_1">
+					<a href="#"><img src="img/more_4_2.jpg" alt="모터스포츠">
+
+					<div class="more"><p><span>모터스포츠</span>
+						<br><br>금호타이어가 후원하는<br>
+						모터스포츠의 정보를<br>
+						알려드립니다.</p>
+					</div>
+					
+					</a>
+				</div>
+
+			</div>
+			
+		</section>
+			
+	<!-----------------footer-------------->
+	
+		<footer>
+
+			<div id="footer_info">
+			
+				<ul class="f_1">
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="notices.html">공지사항</a></li>
+					<li><a href="#">사이트맵 </a></li>
+					<li><a href="#">고객센터</a></li>
+				</ul>
+				
+			</div>
+			
+			<hr style="margin-bottom: 3%;">
+			
+			<div class="fbox">
+			
+				<p class="logo_2">
+					<a href="#"><img src="img/logo.png" alt="로고"></a>
+				</p>
+				
+				<address>
+				
+					<ul id="footer_info2">
+						<li>회사명 </li>
+						<li>대표 </li>
+						<li>주소 </li>
+						<li>사업자 번호</li>
+						<li>고객센터</li>
+					</ul>
+					
+					<ul id="footer_info3">
+						<li>금호 타이어</li>
+						<li>전대진</li>
+						<li>서울특별시 중구 소월로 2길 12</li>
+						<li>052-02-82006</li>
+						<li>1588-9582</li>
+					</ul>
+					
+					<ul id="footer_info4">
+						<li>고객센터</li>
+						<li>Tel: 1644-2357</li>
+						<li>Fax: 02-954-5264</li>
+						<li>월~금 10:00 ~ 17:00</li>
+						<li>문의메일 : webmaster@kumho.co.kr</li>
+					</ul>
+					
+				</address>
+				
+				<div class="icon_2">		
+					
+					<div class="sns_icon">
+						<a href="#"><img src="img/sns_1.png" alt="facebook"></a>
+					</div>
+					
+					<div class="sns_icon">
+						<a href="#"><img src="img/sns_2.png" alt="instagram"></a>
+					</div>
+
+					<div class="sns_icon">
+						<a href="#"><img src="img/sns_3.png" alt="youtube"></a>
+					</div>
+				</div>
+
+			</div>
+
+		</footer>
+			
+	</body>
+	
+</html>

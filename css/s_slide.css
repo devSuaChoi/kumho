@@ -1,0 +1,56 @@
+body {
+	background: #000;
+}
+
+div.product_1 {
+	width: 100%;
+	margin: 5% auto;
+	position: relative;
+}
+
+div.product {
+	width: 80%;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div#pro_1 {
+	width: 100%;
+}
+
+div#pro_1 h2 {
+	width: 100%;
+	font-size: 4em;
+	margin-bottom: 5%;
+}
+
+#p_1 {
+	width: 100%;
+	height: 235px;
+	overflow: hidden;
+	position: relative;
+}
+
+#p_1 li {
+	float: left;
+}
+
+#p_1 li img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+#arrow1 {
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	margin-top: 45px;
+}
+
+#arrow2 {
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	margin-top: 45px;
+}
